@@ -15,20 +15,20 @@
 
 | プラン | 保護対象 | 主な機能 | 課金の数量単位 | 数量（入力用） |
 |---|---|---|---|---|
-| Defender for Servers Plan 1 (P1) (*3) | protects Windows and Linux machines in multicloud environments (*3) | Defender for Endpoint EDR<br>Attack surface reduction<br>Next-generation protection<br>Integrated alerts and incidents<br>Software inventory discovery<br>Regulatory compliance assessment<br>Vulnerability scanning (agent-based)<br>(*3) | /server/month (*2) |  |
-| Defender for Servers Plan 2 (P2) (*3) | protects Windows and Linux machines in multicloud environments (*3) | provides the same features as Plan 1 and other capabilities<br>Vulnerability scanning (agentless)<br>Malware scanning (agentless)<br>Machine secrets scanning (agentless)<br>File integrity monitoring<br>Just-in-time virtual machine access<br>Defender for DNS alerts<br>Threat detection (Azure network layer)<br>OS system updates<br>Defender for Vulnerability Management premium features<br>Network map<br>Free data ingestion (500 MB)<br>(*3) | /server/month (*2) |  |
-| Defender for Containers (*6) | Kubernetes clusters, nodes, workloads, registries, images (*6)<br>Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (EKS), and Google Kubernetes Engine (GKE) (*4)<br>Azure Container Registry (ACR), Amazon Elastic Container Registry (ECR), Google Artifact Registry (GAR), Google Container Registry (GCR), Docker Hub, and JFrog Artifactory (*4) | Security posture management<br>Vulnerability assessment<br>Run-time threat protection<br>Software supply chain protection<br>Deployment & monitoring<br>(*6) | /vCore/month<br>per image digest<br>(*2) |  |
-| Defender for Storage (*8) | Azure Blob Storage<br>Azure Files<br>Azure Data Lake Storage<br>(*8) | Activity monitoring<br>Sensitive data threat detection<br>Malware scanning<br>Event-driven response<br>(*8) | per storage account/month<br>for every 1 million transactions that exceed the threshold<br>/GB of data scanned<br>(*2) |  |
-| Defender for Azure SQL Databases (*10) | Azure SQL single databases and elastic pools<br>Azure SQL managed instances<br>Azure Synapse Analytics (formerly Azure SQL Data Warehouse) dedicated SQL pools<br>(*10) | Vulnerability assessment<br>Threat protection<br>Potential SQL injection attacks<br>Anomalous database access and query patterns<br>Suspicious database activity<br>(*10) | /Instance/month (*2) |  |
-| Defender for SQL Servers on Machines (*9) | SQL Server instances running on Azure VMs, AWS EC2 instances (via Arc), and GCP Compute Engine instances (via Arc) (*4)<br>SQL servers that run on virtual machines or physical servers (*9) | SQL threat detection and vulnerability assessment on multicloud machines (*4) | /Instance/month<br>/Instance/vCore/month<br>(*2) |  |
-| Defender for Open-Source Relational Databases (*11) | Azure Database for PostgreSQL<br>Azure Database for MySQL<br>Flexible Server: All pricing tiers<br>Amazon RDS<br>Aurora PostgreSQL<br>Aurora MySQL<br>MariaDB<br>(*11) | Anomalous database access and query patterns<br>Suspicious database activity<br>the plan also includes sensitive data discovery<br>(*11) | /Instance/month (*2) |  |
-| Defender for Azure Cosmos DB (*12) | Azure Cosmos DB for NoSQL (*12) | Potential SQL injection attacks<br>Anomalous database access patterns<br>Suspicious database activity<br>(*12) | per 100 RUs/month (*2) |  |
-| Defender for App Service (*13) | identify attacks targeting applications running over App Service<br>An App Service plan on any App Service tier<br>(*13) | Pre-attack threats<br>Initial access threats<br>Execution threats<br>Dangling DNS detection<br>(*13) | /Instance/month (*2) |  |
-| Defender for Key Vault (*14) | advanced threat protection for Azure Key Vault (*14) | detects unusual and potentially harmful attempts to access or exploit Key Vault accounts (*14) | /Vault/month (*2) |  |
-| Defender for Resource Manager (*15) | automatically monitors the resource management operations in your organization (*15) | Suspicious resource management operations<br>Use of exploitation toolkits<br>Lateral movement<br>(*15) | /Subscription/month (*2) |  |
-| Defender for APIs (*17) | currently provides security for APIs published in Azure API Management (*17) | Inventory<br>Security findings<br>Security posture<br>API data classification<br>Threat detection<br>Defender CSPM integration<br>Azure API Management integration<br>SIEM integration<br>(*17) | per subscription/month up to 1 million API calls<br>per API call<br>(*2) |  |
-| Defender for AI Services (*18) | Azure OpenAI supported models<br>Azure AI Model Inference service supported models<br>currently supports text tokens only<br>(*18) | Activity monitoring (security alerts)<br>Prompt evidence (security alerts)<br>data leakage, data poisoning, jailbreak, credential theft<br>(*18) | /1K tokens/month (*2) |  |
-| Defender for DNS (*16) | all Azure resources that use Azure DNS's Azure-provided name resolution capability (*16) | Data exfiltration<br>Malware<br>DNS attacks<br>Communication with domains used for malicious activities<br>(*16) | ―（価格ページに行がない） |  |
+| Defender for Servers Plan 1 (P1) (*2) | protects Windows and Linux machines in multicloud environments (*2) | Defender for Endpoint EDR<br>Attack surface reduction<br>Next-generation protection<br>Integrated alerts and incidents<br>Software inventory discovery<br>Regulatory compliance assessment<br>Vulnerability scanning (agent-based)<br>(*2) | /server/month (*1) |  |
+| Defender for Servers Plan 2 (P2) (*2) | protects Windows and Linux machines in multicloud environments (*2) | provides the same features as Plan 1 and other capabilities<br>Vulnerability scanning (agentless)<br>Malware scanning (agentless)<br>Machine secrets scanning (agentless)<br>File integrity monitoring<br>Just-in-time virtual machine access<br>Defender for DNS alerts<br>Threat detection (Azure network layer)<br>OS system updates<br>Defender for Vulnerability Management premium features<br>Network map<br>Free data ingestion (500 MB)<br>(*2) | /server/month (*1) |  |
+| Defender for Containers (*5) | Kubernetes clusters, nodes, workloads, registries, images (*5)<br>Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (EKS), and Google Kubernetes Engine (GKE) (*3)<br>Azure Container Registry (ACR), Amazon Elastic Container Registry (ECR), Google Artifact Registry (GAR), Google Container Registry (GCR), Docker Hub, and JFrog Artifactory (*3) | Security posture management<br>Vulnerability assessment<br>Run-time threat protection<br>Software supply chain protection<br>Deployment & monitoring<br>(*5) | /vCore/month<br>per image digest<br>(*1) |  |
+| Defender for Storage (*6) | Azure Blob Storage<br>Azure Files<br>Azure Data Lake Storage<br>(*6) | Activity monitoring<br>Sensitive data threat detection<br>Malware scanning<br>Event-driven response<br>(*6) | per storage account/month<br>for every 1 million transactions that exceed the threshold<br>/GB of data scanned<br>(*1) |  |
+| Defender for Azure SQL Databases (*8) | Azure SQL single databases and elastic pools<br>Azure SQL managed instances<br>Azure Synapse Analytics (formerly Azure SQL Data Warehouse) dedicated SQL pools<br>(*8) | Vulnerability assessment<br>Threat protection<br>Potential SQL injection attacks<br>Anomalous database access and query patterns<br>Suspicious database activity<br>(*8) | /Instance/month (*1) |  |
+| Defender for SQL Servers on Machines (*7) | SQL Server instances running on Azure VMs, AWS EC2 instances (via Arc), and GCP Compute Engine instances (via Arc) (*3)<br>SQL servers that run on virtual machines or physical servers (*7) | SQL threat detection and vulnerability assessment on multicloud machines (*3) | /Instance/month<br>/Instance/vCore/month<br>(*1) |  |
+| Defender for Open-Source Relational Databases (*9) | Azure Database for PostgreSQL<br>Azure Database for MySQL<br>Flexible Server: All pricing tiers<br>Amazon RDS<br>Aurora PostgreSQL<br>Aurora MySQL<br>MariaDB<br>(*9) | Anomalous database access and query patterns<br>Suspicious database activity<br>the plan also includes sensitive data discovery<br>(*9) | /Instance/month (*1) |  |
+| Defender for Azure Cosmos DB (*10) | Azure Cosmos DB for NoSQL (*10) | Potential SQL injection attacks<br>Anomalous database access patterns<br>Suspicious database activity<br>(*10) | per 100 RUs/month (*1) |  |
+| Defender for App Service (*11) | identify attacks targeting applications running over App Service<br>An App Service plan on any App Service tier<br>(*11) | Pre-attack threats<br>Initial access threats<br>Execution threats<br>Dangling DNS detection<br>(*11) | /Instance/month (*1) |  |
+| Defender for Key Vault (*12) | advanced threat protection for Azure Key Vault (*12) | detects unusual and potentially harmful attempts to access or exploit Key Vault accounts (*12) | /Vault/month (*1) |  |
+| Defender for Resource Manager (*13) | automatically monitors the resource management operations in your organization (*13) | Suspicious resource management operations<br>Use of exploitation toolkits<br>Lateral movement<br>(*13) | /Subscription/month (*1) |  |
+| Defender for APIs (*15) | currently provides security for APIs published in Azure API Management (*15) | Inventory<br>Security findings<br>Security posture<br>API data classification<br>Threat detection<br>Defender CSPM integration<br>Azure API Management integration<br>SIEM integration<br>(*15) | per subscription/month up to 1 million API calls<br>per API call<br>(*1) |  |
+| Defender for AI Services (*16) | Azure OpenAI supported models<br>Azure AI Model Inference service supported models<br>currently supports text tokens only<br>(*16) | Activity monitoring (security alerts)<br>Prompt evidence (security alerts)<br>data leakage, data poisoning, jailbreak, credential theft<br>(*16) | /1K tokens/month (*1) |  |
+| Defender for DNS (*14) | all Azure resources that use Azure DNS's Azure-provided name resolution capability (*14) | Data exfiltration<br>Malware<br>DNS attacks<br>Communication with domains used for malicious activities<br>(*14) | ―（価格ページに行がない） |  |
 
 ## 1-B. プラン・保護対象・主な機能（翻訳版）
 
@@ -36,37 +36,37 @@
 
 | プラン | 保護対象 | 主な機能 | 課金の数量単位 | 数量（入力用） |
 |---|---|---|---|---|
-| Defender for Servers プラン 1 (P1) (*3) | マルチクラウド環境の Windows と Linux のマシンを保護する (*3) | Defender for Endpoint の EDR<br>攻撃面の縮小<br>次世代の保護<br>アラートとインシデントの統合<br>ソフトウェア インベントリの検出<br>規制コンプライアンスの評価<br>脆弱性スキャン（エージェント ベース）<br>(*3) | サーバーの台数（月あたり）(*2) |  |
-| Defender for Servers プラン 2 (P2) (*3) | マルチクラウド環境の Windows と Linux のマシンを保護する (*3) | プラン 1 と同じ機能に加えて、ほかの機能も提供する<br>脆弱性スキャン（エージェントレス）<br>マルウェア スキャン（エージェントレス）<br>マシンのシークレット スキャン（エージェントレス）<br>ファイル整合性監視<br>Just-In-Time の仮想マシン アクセス<br>Defender for DNS のアラート<br>脅威検出（Azure ネットワーク層）<br>OS のシステム更新<br>Defender 脆弱性の管理のプレミアム機能<br>ネットワーク マップ<br>無料のデータ取り込み（500 MB）<br>(*3) | サーバーの台数（月あたり）(*2) |  |
-| Defender for Containers (*6) | Kubernetes のクラスター、ノード、ワークロード、レジストリ、イメージ (*6)<br>Azure Kubernetes Service (AKS)、Amazon Elastic Kubernetes Service (EKS)、Google Kubernetes Engine (GKE) (*4)<br>Azure Container Registry (ACR)、Amazon Elastic Container Registry (ECR)、Google Artifact Registry (GAR)、Google Container Registry (GCR)、Docker Hub、JFrog Artifactory (*4) | セキュリティ態勢の管理<br>脆弱性評価<br>実行時の脅威保護<br>ソフトウェア サプライ チェーンの保護<br>デプロイと監視<br>(*6) | ワーカー ノードの vCore 数（月あたり）<br>無料枠を超えたスキャンは、イメージ ダイジェストの数<br>(*2) |  |
-| Defender for Storage (*8) | Azure Blob Storage<br>Azure Files<br>Azure Data Lake Storage<br>(*8) | アクティビティの監視<br>機密データの脅威検出<br>マルウェア スキャン<br>イベント駆動の対応<br>(*8) | ストレージ アカウントの数（月あたり）<br>しきい値を超えたトランザクション 100 万件ごと<br>マルウェア スキャンは、スキャンしたデータの GB 数<br>(*2) |  |
-| Defender for Azure SQL Databases (*10) | Azure SQL の単一データベースとエラスティック プール<br>Azure SQL マネージド インスタンス<br>Azure Synapse Analytics（旧 Azure SQL Data Warehouse）の専用 SQL プール<br>(*10) | 脆弱性評価<br>脅威保護<br>SQL インジェクション攻撃の可能性<br>異常なデータベース アクセスとクエリのパターン<br>不審なデータベース アクティビティ<br>(*10) | インスタンスの数（月あたり）(*2) |  |
-| Defender for SQL Servers on Machines (*9) | Azure VM、AWS EC2 インスタンス（Arc 経由）、GCP Compute Engine インスタンス（Arc 経由）で動く SQL Server インスタンス (*4)<br>仮想マシンまたは物理サーバーで動く SQL サーバー (*9) | マルチクラウドのマシンでの SQL の脅威検出と脆弱性評価 (*4) | Azure 内または Arc 対応: インスタンスの数（月あたり）<br>Azure 外で Arc 非対応: インスタンスの vCore 数（月あたり）<br>(*2) |  |
-| Defender for Open-Source Relational Databases (*11) | Azure Database for PostgreSQL<br>Azure Database for MySQL<br>フレキシブル サーバー: すべての価格レベル<br>Amazon RDS<br>Aurora PostgreSQL<br>Aurora MySQL<br>MariaDB<br>(*11) | 異常なデータベース アクセスとクエリのパターン<br>不審なデータベース アクティビティ<br>プランには機密データの検出も含まれる（Amazon RDS の場合）<br>(*11) | インスタンスの数（月あたり）(*2) |  |
-| Defender for Azure Cosmos DB (*12) | Azure Cosmos DB for NoSQL (*12) | SQL インジェクション攻撃の可能性<br>異常なデータベース アクセスのパターン<br>不審なデータベース アクティビティ<br>(*12) | 100 RU ごと（月あたり）(*2) |  |
-| Defender for App Service (*13) | App Service で動くアプリケーションを狙った攻撃を特定する<br>どのレベルの App Service プランでもよい<br>(*13) | 攻撃前の脅威<br>初期アクセスの脅威<br>実行の脅威<br>ダングリング DNS（宙に浮いた DNS エントリ）の検出<br>(*13) | インスタンスの数（月あたり）(*2) |  |
-| Defender for Key Vault (*14) | Azure Key Vault 向けの高度な脅威保護 (*14) | Key Vault アカウントへの、通常と異なる有害なおそれのあるアクセスや悪用の試みを検出する (*14) | vault（キー コンテナー）の数（月あたり）(*2) |  |
-| Defender for Resource Manager (*15) | 組織内のリソース管理操作を自動的に監視する (*15) | 不審なリソース管理操作<br>悪用ツールキットの使用<br>横方向の移動（ラテラル ムーブメント）<br>(*15) | サブスクリプションの数（月あたり）(*2) |  |
-| Defender for APIs (*17) | 現在は、Azure API Management で公開された API のセキュリティを提供する (*17) | インベントリ<br>セキュリティの検出結果<br>セキュリティ態勢<br>API データの分類<br>脅威検出<br>Defender CSPM との統合<br>Azure API Management との統合<br>SIEM との統合<br>(*17) | サブスクリプションごとの月額（Plan 1 は API 呼び出し 100 万回まで）<br>枠を超えた API 呼び出しの回数<br>(*2) |  |
-| Defender for AI Services (*18) | Azure OpenAI の対応モデル<br>Azure AI Model Inference サービスの対応モデル<br>現在はテキストのトークンだけに対応<br>(*18) | アクティビティの監視（セキュリティ アラート）<br>プロンプトの証拠（セキュリティ アラート）<br>データ漏えい、データ ポイズニング、ジェイルブレイク、資格情報の窃取<br>(*18) | 1,000 トークンごと（月あたり）(*2) |  |
-| Defender for DNS (*16) | Azure DNS の Azure 提供の名前解決機能を使うすべての Azure リソース (*16) | データの持ち出し<br>マルウェア<br>DNS 攻撃<br>悪意のある活動に使われるドメインとの通信<br>(*16) | ―（価格ページに行がない） |  |
+| Defender for Servers プラン 1 (P1) (*2) | マルチクラウド環境の Windows と Linux のマシンを保護する (*2) | Defender for Endpoint の EDR<br>攻撃面の縮小<br>次世代の保護<br>アラートとインシデントの統合<br>ソフトウェア インベントリの検出<br>規制コンプライアンスの評価<br>脆弱性スキャン（エージェント ベース）<br>(*2) | サーバーの台数（月あたり）(*1) |  |
+| Defender for Servers プラン 2 (P2) (*2) | マルチクラウド環境の Windows と Linux のマシンを保護する (*2) | プラン 1 と同じ機能に加えて、ほかの機能も提供する<br>脆弱性スキャン（エージェントレス）<br>マルウェア スキャン（エージェントレス）<br>マシンのシークレット スキャン（エージェントレス）<br>ファイル整合性監視<br>Just-In-Time の仮想マシン アクセス<br>Defender for DNS のアラート<br>脅威検出（Azure ネットワーク層）<br>OS のシステム更新<br>Defender 脆弱性の管理のプレミアム機能<br>ネットワーク マップ<br>無料のデータ取り込み（500 MB）<br>(*2) | サーバーの台数（月あたり）(*1) |  |
+| Defender for Containers (*5) | Kubernetes のクラスター、ノード、ワークロード、レジストリ、イメージ (*5)<br>Azure Kubernetes Service (AKS)、Amazon Elastic Kubernetes Service (EKS)、Google Kubernetes Engine (GKE) (*3)<br>Azure Container Registry (ACR)、Amazon Elastic Container Registry (ECR)、Google Artifact Registry (GAR)、Google Container Registry (GCR)、Docker Hub、JFrog Artifactory (*3) | セキュリティ態勢の管理<br>脆弱性評価<br>実行時の脅威保護<br>ソフトウェア サプライ チェーンの保護<br>デプロイと監視<br>(*5) | ワーカー ノードの vCore 数（月あたり）<br>無料枠を超えたスキャンは、イメージ ダイジェストの数<br>(*1) |  |
+| Defender for Storage (*6) | Azure Blob Storage<br>Azure Files<br>Azure Data Lake Storage<br>(*6) | アクティビティの監視<br>機密データの脅威検出<br>マルウェア スキャン<br>イベント駆動の対応<br>(*6) | ストレージ アカウントの数（月あたり）<br>しきい値を超えたトランザクション 100 万件ごと<br>マルウェア スキャンは、スキャンしたデータの GB 数<br>(*1) |  |
+| Defender for Azure SQL Databases (*8) | Azure SQL の単一データベースとエラスティック プール<br>Azure SQL マネージド インスタンス<br>Azure Synapse Analytics（旧 Azure SQL Data Warehouse）の専用 SQL プール<br>(*8) | 脆弱性評価<br>脅威保護<br>SQL インジェクション攻撃の可能性<br>異常なデータベース アクセスとクエリのパターン<br>不審なデータベース アクティビティ<br>(*8) | インスタンスの数（月あたり）(*1) |  |
+| Defender for SQL Servers on Machines (*7) | Azure VM、AWS EC2 インスタンス（Arc 経由）、GCP Compute Engine インスタンス（Arc 経由）で動く SQL Server インスタンス (*3)<br>仮想マシンまたは物理サーバーで動く SQL サーバー (*7) | マルチクラウドのマシンでの SQL の脅威検出と脆弱性評価 (*3) | Azure 内または Arc 対応: インスタンスの数（月あたり）<br>Azure 外で Arc 非対応: インスタンスの vCore 数（月あたり）<br>(*1) |  |
+| Defender for Open-Source Relational Databases (*9) | Azure Database for PostgreSQL<br>Azure Database for MySQL<br>フレキシブル サーバー: すべての価格レベル<br>Amazon RDS<br>Aurora PostgreSQL<br>Aurora MySQL<br>MariaDB<br>(*9) | 異常なデータベース アクセスとクエリのパターン<br>不審なデータベース アクティビティ<br>プランには機密データの検出も含まれる（Amazon RDS の場合）<br>(*9) | インスタンスの数（月あたり）(*1) |  |
+| Defender for Azure Cosmos DB (*10) | Azure Cosmos DB for NoSQL (*10) | SQL インジェクション攻撃の可能性<br>異常なデータベース アクセスのパターン<br>不審なデータベース アクティビティ<br>(*10) | 100 RU ごと（月あたり）(*1) |  |
+| Defender for App Service (*11) | App Service で動くアプリケーションを狙った攻撃を特定する<br>どのレベルの App Service プランでもよい<br>(*11) | 攻撃前の脅威<br>初期アクセスの脅威<br>実行の脅威<br>ダングリング DNS（宙に浮いた DNS エントリ）の検出<br>(*11) | インスタンスの数（月あたり）(*1) |  |
+| Defender for Key Vault (*12) | Azure Key Vault 向けの高度な脅威保護 (*12) | Key Vault アカウントへの、通常と異なる有害なおそれのあるアクセスや悪用の試みを検出する (*12) | vault（キー コンテナー）の数（月あたり）(*1) |  |
+| Defender for Resource Manager (*13) | 組織内のリソース管理操作を自動的に監視する (*13) | 不審なリソース管理操作<br>悪用ツールキットの使用<br>横方向の移動（ラテラル ムーブメント）<br>(*13) | サブスクリプションの数（月あたり）(*1) |  |
+| Defender for APIs (*15) | 現在は、Azure API Management で公開された API のセキュリティを提供する (*15) | インベントリ<br>セキュリティの検出結果<br>セキュリティ態勢<br>API データの分類<br>脅威検出<br>Defender CSPM との統合<br>Azure API Management との統合<br>SIEM との統合<br>(*15) | サブスクリプションごとの月額（Plan 1 は API 呼び出し 100 万回まで）<br>枠を超えた API 呼び出しの回数<br>(*1) |  |
+| Defender for AI Services (*16) | Azure OpenAI の対応モデル<br>Azure AI Model Inference サービスの対応モデル<br>現在はテキストのトークンだけに対応<br>(*16) | アクティビティの監視（セキュリティ アラート）<br>プロンプトの証拠（セキュリティ アラート）<br>データ漏えい、データ ポイズニング、ジェイルブレイク、資格情報の窃取<br>(*16) | 1,000 トークンごと（月あたり）(*1) |  |
+| Defender for DNS (*14) | Azure DNS の Azure 提供の名前解決機能を使うすべての Azure リソース (*14) | データの持ち出し<br>マルウェア<br>DNS 攻撃<br>悪意のある活動に使われるドメインとの通信<br>(*14) | ―（価格ページに行がない） |  |
 
 ## 2. 表の補足
 
 | 内容（翻訳） | 原文（検索できる表現） | 脚注 |
 |---|---|---|
-| Defender for DNS は新規には選べず、新しいサブスクリプションでは Servers プラン 2 に含まれる | For new subscriptions, alerts about suspicious DNS activity are included as part of Defender for Servers Plan 2 (P2) | (*16) |
-| SQL 系・オープンソース・Cosmos DB の 4 つは Defender for Databases を構成し、別々に価格が決まる | Each of these database protection plans is priced separately | (*9) |
-| Cosmos DB で対象外の API | Azure Cosmos DB for Apache Cassandra<br>Azure Cosmos DB for MongoDB<br>Azure Cosmos DB for Table<br>Azure Cosmos DB for Apache Gremlin | (*12) |
-| オープンソース データベースは Arc 対応マシンでは使えない | It isn't supported on Azure Arc-enabled machines | (*11) |
-| マルウェア スキャンは設定で有効にする機能で、スキャンした GB あたりで課金される | Malware scanning is a configurable feature in the new Defender for Storage plan that is priced per GB scanned | (*8) |
-| 機密データの脅威検出は追加料金なしで有効・無効を切り替えられる | You can enable or disable it at no additional cost | (*8) |
-| AWS / GCP のマシンは Azure Arc での接続が必要 | AWS and GCP machines require | (*4) |
-| Foundry の AI エージェントの脅威保護はプレビュー | Threat protection for AI agents (Preview) | (*19) |
+| Defender for DNS は新規には選べず、新しいサブスクリプションでは Servers プラン 2 に含まれる | For new subscriptions, alerts about suspicious DNS activity are included as part of Defender for Servers Plan 2 (P2) | (*14) |
+| SQL 系・オープンソース・Cosmos DB の 4 つは Defender for Databases を構成し、別々に価格が決まる | Each of these database protection plans is priced separately | (*7) |
+| Cosmos DB で対象外の API | Azure Cosmos DB for Apache Cassandra<br>Azure Cosmos DB for MongoDB<br>Azure Cosmos DB for Table<br>Azure Cosmos DB for Apache Gremlin | (*10) |
+| オープンソース データベースは Arc 対応マシンでは使えない | It isn't supported on Azure Arc-enabled machines | (*9) |
+| マルウェア スキャンは設定で有効にする機能で、スキャンした GB あたりで課金される | Malware scanning is a configurable feature in the new Defender for Storage plan that is priced per GB scanned | (*6) |
+| 機密データの脅威検出は追加料金なしで有効・無効を切り替えられる | You can enable or disable it at no additional cost | (*6) |
+| AWS / GCP のマシンは Azure Arc での接続が必要 | AWS and GCP machines require | (*3) |
+| Foundry の AI エージェントの脅威保護はプレビュー | Threat protection for AI agents (Preview) | (*17) |
 
 ## 3. クラウドごとの提供状況
 
-出典は (*4) の表「Plan availability by cloud」。プラン名と値は原文のまま。値の意味は、GA が一般提供、Preview がプレビュー、Not supported が非対応。
+出典は (*3) の表「Plan availability by cloud」。プラン名と値は原文のまま。値の意味は、GA が一般提供、Preview がプレビュー、Not supported が非対応。
 
 | プラン | Azure | AWS | GCP |
 |---|---|---|---|
@@ -88,7 +88,7 @@
 
 課金額は「数量 × 単価」で決まる。この節は、プランごとに何を数えればよいかをまとめている。
 
-- 出典は価格ページ (*2) の「Plan-Based Pricing」タブ。ページを開いた直後は「DWU Pricing」タブが表示されるので、切り替えてから検索する。
+- 出典は価格ページ (*1) の「Plan-Based Pricing」タブ。ページを開いた直後は「DWU Pricing」タブが表示されるので、切り替えてから検索する。
 - 「原文」の列は、ブラウザーで開いた画面の文字をそのまま写している。
 - **価格は Japan East（東日本）リージョンで固定している。** 2026-11-20 に、ページの Region を「Japan East」、表示を月額（Month）にして読み取った。通貨は USD と JPY（Japan – Yen）の 2 通りを載せている。
 - Japan East の USD の価格は、ページを開いた直後の既定のリージョン（Central US）の価格と、全行で同じ値だった。
@@ -138,10 +138,10 @@
 
 | 内容（翻訳） | 原文（検索できる表現） | 脚注 |
 |---|---|---|
-| Servers はサーバーの稼働時間で数える（サーバー・時間あたりの課金） | billed per server-hour | (*19) |
-| App Service は、すべての App Service プランのコンピュート インスタンスの合計で数える | total compute instances across all App Service plan tiers | (*13) |
-| Storage は、保護するストレージ アカウントの数で決まる | based on the number of storage accounts you protect | (*8) |
-| 価格の表示は時間単位と月単位を切り替えられる | Display pricing by: | (*2) |
+| Servers はサーバーの稼働時間で数える（サーバー・時間あたりの課金） | billed per server-hour | (*17) |
+| App Service は、すべての App Service プランのコンピュート インスタンスの合計で数える | total compute instances across all App Service plan tiers | (*11) |
+| Storage は、保護するストレージ アカウントの数で決まる | based on the number of storage accounts you protect | (*6) |
+| 価格の表示は時間単位と月単位を切り替えられる | Display pricing by: | (*1) |
 
 ### 4-4. 別の料金体系（DWU）
 
@@ -156,7 +156,7 @@
 
 ## 5. 最近の変更（プラン選びに関わるもの）
 
-出典はすべてリリース ノート (*19)。原文の列はリリース ノートの見出し。
+出典はすべてリリース ノート (*17)。原文の列はリリース ノートの見出し。
 
 | 日付 | 内容（翻訳） | 原文（検索できる表現） |
 |---|---|---|
@@ -166,7 +166,7 @@
 | 2026-07-01 | Containers の新機能が一般提供 | New container security capabilities are now generally available |
 | 2026-02-02 | Foundry の AI エージェントの脅威保護がプレビュー | Threat protection for AI agents (Preview) |
 
-廃止済みの 5 プランと移行先 (*19)。左 2 列が原文、右 2 列が翻訳。
+廃止済みの 5 プランと移行先 (*17)。左 2 列が原文、右 2 列が翻訳。
 
 | Deprecated plan | Migration path | 廃止済みのプラン（翻訳） | 移行先（翻訳） |
 |---|---|---|---|
@@ -180,8 +180,8 @@ Key Vault と Resource Manager の「（旧料金体系）」は、移行先が�
 
 ## 6. 公式ページ間の食い違い
 
-1. **Open-Source Relational Databases の AWS 対応**: サポート表 (*4) は `Preview`。リリース ノート (*19) は 2026-06-01 に AWS RDS で GA としている。どちらが正しいかは確かめられていない。
-2. **データベース系のプレビュー表記**: (*5) の表「Security benefits for Azure services」は、Azure Cosmos DB、Azure Database for MySQL、Azure Database for PostgreSQL に `These features are currently supported in preview` の注釈を付けている。同じページの「Cloud support」の表と (*4) は、どれも Azure で GA としている。
+1. **Open-Source Relational Databases の AWS 対応**: サポート表 (*3) は `Preview`。リリース ノート (*17) は 2026-06-01 に AWS RDS で GA としている。どちらが正しいかは確かめられていない。
+2. **データベース系のプレビュー表記**: (*4) の表「Security benefits for Azure services」は、Azure Cosmos DB、Azure Database for MySQL、Azure Database for PostgreSQL に `These features are currently supported in preview` の注釈を付けている。同じページの「Cloud support」の表と (*3) は、どれも Azure で GA としている。
 
 ## 7. 今回確かめていないこと
 
@@ -189,7 +189,7 @@ Key Vault と Resource Manager の「（旧料金体系）」は、移行先が�
 - DWU の価格（$5.00/month）が Japan East の USD 表示でも同じかどうか。USD は既定のリージョンで、JPY は Japan East で読み取った
 - DWU（Defender Workload Unit）への換算。各プランの数量が何 DWU になるか、プラン別の料金とどちらが適用されるか
 - 「インスタンス」「サーバー」が具体的に何を 1 つと数えるかの定義（たとえば Azure SQL で論理サーバー単位かデータベース単位か）。価格ページには単位名しか書かれていない
-- Defender for SQL Servers on Machines の専用の概要ページ（`defender-for-sql-servers-introduction`）。この行は (*4) と (*9) の記述だけで書いている
+- Defender for SQL Servers on Machines の専用の概要ページ（`defender-for-sql-servers-introduction`）。この行は (*3) と (*7) の記述だけで書いている
 - 日本のリージョンでの提供状況
 - 価格ページ以外のページをブラウザーで開いたときの見え方。語句は取得したページ本文から写しており、実際の画面で 1 つずつ検索して確かめたわけではない（価格ページだけは画面の文字を写している）
 
@@ -197,22 +197,20 @@ Key Vault と Resource Manager の「（旧料金体系）」は、移行先が�
 
 | 脚注 | ページ | ms.date | URL |
 |---|---|---|---|
-| (*2) | Pricing（価格ページ）。「Plan-Based Pricing」タブに切り替え、Region で「Japan East」を選んで見る | ― | https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/ |
-| (*3) | Overview of Defender for Servers | 2026-11-13 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-servers-overview |
-| (*4) | Multicloud support matrix | 2026-09-11 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/multicloud-support-matrix |
-| (*5) | Interoperability with Azure services, Azure clouds, and client operating systems | 2026-07-01 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/support-matrix-defender-for-cloud |
-| (*6) | Introduction to Microsoft Defender for Containers | 2026-08-10 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-introduction |
-| (*8) | What is Microsoft Defender for Storage | 2026-06-28 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction |
-| (*9) | Protect your Databases with Defender for Databases | 2026-07-03 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/tutorial-enable-databases-plan |
-| (*10) | Benefits and Features of Defender for Azure SQL Databases | 2025-05-13 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction |
-| (*11) | Overview of Defender for Open-Source Relational Databases | 2026-08-10 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-introduction |
-| (*12) | Overview of Defender for Azure Cosmos DB | 2024-12-24 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-defender-for-cosmos |
-| (*13) | Microsoft Defender for App Service - Benefits and Features | 2026-05-14 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-app-service-introduction |
-| (*14) | Microsoft Defender for Key Vault - the benefits and features | 2025-08-20 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-key-vault-introduction |
-| (*15) | Microsoft Defender for Resource Manager - Benefits and Features | 2026-04-19 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-resource-manager-introduction |
-| (*16) | Microsoft Defender for DNS - the benefits and features | 2025-08-20 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-dns-introduction |
-| (*17) | Overview of the Microsoft Defender for APIs plan | 2025-07-14 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-apis-introduction |
-| (*18) | AI threat protection in Microsoft Defender for Cloud | 2026-05-19 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection |
-| (*19) | What's New in Defender for Cloud Features（リリース ノート） | 2026-11-05 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes |
-
-脚注の番号は最初の版と揃えている。(*1) と (*7) は、この版では使っていないため欠番。
+| (*1) | Pricing（価格ページ）。「Plan-Based Pricing」タブに切り替え、Region で「Japan East」を選んで見る | ― | https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/ |
+| (*2) | Overview of Defender for Servers | 2026-11-13 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-servers-overview |
+| (*3) | Multicloud support matrix | 2026-09-11 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/multicloud-support-matrix |
+| (*4) | Interoperability with Azure services, Azure clouds, and client operating systems | 2026-07-01 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/support-matrix-defender-for-cloud |
+| (*5) | Introduction to Microsoft Defender for Containers | 2026-08-10 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-introduction |
+| (*6) | What is Microsoft Defender for Storage | 2026-06-28 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction |
+| (*7) | Protect your Databases with Defender for Databases | 2026-07-03 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/tutorial-enable-databases-plan |
+| (*8) | Benefits and Features of Defender for Azure SQL Databases | 2025-05-13 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction |
+| (*9) | Overview of Defender for Open-Source Relational Databases | 2026-08-10 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-introduction |
+| (*10) | Overview of Defender for Azure Cosmos DB | 2024-12-24 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-defender-for-cosmos |
+| (*11) | Microsoft Defender for App Service - Benefits and Features | 2026-05-14 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-app-service-introduction |
+| (*12) | Microsoft Defender for Key Vault - the benefits and features | 2025-08-20 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-key-vault-introduction |
+| (*13) | Microsoft Defender for Resource Manager - Benefits and Features | 2026-04-19 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-resource-manager-introduction |
+| (*14) | Microsoft Defender for DNS - the benefits and features | 2025-08-20 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-dns-introduction |
+| (*15) | Overview of the Microsoft Defender for APIs plan | 2025-07-14 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-apis-introduction |
+| (*16) | AI threat protection in Microsoft Defender for Cloud | 2026-05-19 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/ai-threat-protection |
+| (*17) | What's New in Defender for Cloud Features（リリース ノート） | 2026-11-05 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes |
