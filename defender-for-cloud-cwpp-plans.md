@@ -90,44 +90,47 @@
 
 - 出典は価格ページ (*2) の「Plan-Based Pricing」タブ。ページを開いた直後は「DWU Pricing」タブが表示されるので、切り替えてから検索する。
 - 「原文」の列は、ブラウザーで開いた画面の文字をそのまま写している。
-- 「表示されていた価格」は、2026-11-19 にページを開いた直後の表示（通貨 USD、月額表示）。地域と通貨は切り替えていない。地域・通貨・契約によって変わるので、見積もりには必ずページ上で選び直した値を使う。
+- **価格は Japan East（東日本）リージョンで固定している。** 2026-11-20 に、ページの Region を「Japan East」、表示を月額（Month）にして読み取った。通貨は USD と JPY（Japan – Yen）の 2 通りを載せている。
+- Japan East の USD の価格は、ページを開いた直後の既定のリージョン（Central US）の価格と、全行で同じ値だった。
+- JPY の価格は、ページの説明によると USD から為替レートで換算した見積もりで、レートは月ごとに変わる。契約によっても変わるので、見積もりの前にページで値を確かめる。
+- この節に出てくる金額（4-2、4-4 を含む）は、すべて Japan East のもの。
 
 ### 4-1. 数量単位と価格
 
-| プラン（原文の行名） | 数える数量（翻訳） | 原文（検索できる表現） | 表示されていた価格 | 数量（入力用） |
-|---|---|---|---|---|
-| Microsoft Defender for Servers Plan 1 | サーバーの台数 | /server/month | $4.906/server/month |  |
-| Microsoft Defender for Servers Plan 2 | サーバーの台数 | /server/month | $14.60/server/month |  |
-| Microsoft Defender for Containers | Kubernetes のワーカー ノードの vCore 数 | /vCore/month | $6.8693/vCore/month |  |
-| Microsoft Defender for SQL on Azure-connected databases と Microsoft Defender for SQL Servers on machines (in Azure, or Arc-enabled) | インスタンスの数 | /Instance/month | $15/Instance/month |  |
-| Microsoft Defender for SQL Servers on machines (outside Azure and not Arc-enabled) | インスタンスの vCore 数 | /Instance/vCore/month | $10.95/Instance/vCore/month |  |
-| Microsoft Defender for MySQL | インスタンスの数 | /Instance/month | $15/Instance/month |  |
-| Microsoft Defender for PostgreSQL | インスタンスの数 | /Instance/month | $15/Instance/month |  |
-| Microsoft Defender for Open-Source Relational Databases (Outside Azure) | インスタンスの数 | /Instance/month | $15.0001/Instance/month |  |
-| Microsoft Defender for Azure Cosmos DB | RU（要求ユニット）を 100 単位で | per 100 RUs/month | $0.8760 per 100 RUs/month |  |
-| Microsoft Defender for Storage | ストレージ アカウントの数 | per storage account/month | $10 per storage account/month |  |
-| Malware Scanning (add-on to Defender for Storage) | スキャンしたデータの GB 数 | /GB of data scanned | $0.15/GB of data scanned |  |
-| Microsoft Defender for AI Services | トークン数を 1,000 単位で | /1K tokens/month | $0.0008/1K tokens/month |  |
-| Microsoft Defender for APIs Plan 1 | サブスクリプションの数（API 呼び出し 100 万回まで） | per subscription/month up to 1 million API calls | $200.02 |  |
-| Microsoft Defender for APIs Plan 2 | 同上（500 万回まで） | per subscription/month up to 5 million API calls | $700.00 |  |
-| Microsoft Defender for APIs Plan 3 | 同上（5,000 万回まで） | per subscription/month up to 50 million API calls | $4,999.99 |  |
-| Microsoft Defender for APIs Plan 4 | 同上（1 億回まで） | per subscription/month up to 100 million API calls | $6,999.97 |  |
-| Microsoft Defender for APIs Plan 5 | 同上（10 億回まで） | per subscription/month up to 1 billion API calls | $50,000.04 |  |
-| Microsoft Defender for App Service | インスタンスの数 | /Instance/month | $14.60/Instance/month |  |
-| Microsoft Defender for Key Vault | vault（キー コンテナー）の数 | /Vault/month | $0.25/Vault/month |  |
-| Microsoft Defender for Resource Manager | サブスクリプションの数 | /Subscription/month | $5.04/Subscription/month |  |
-| Defender for DNS | 価格ページに行がない | ― | ― |  |
+| プラン（原文の行名） | 数える数量（翻訳） | 原文（検索できる表現） | 価格（Japan East・USD） | 価格（Japan East・JPY） | 数量（入力用） |
+|---|---|---|---|---|---|
+| Microsoft Defender for Servers Plan 1 | サーバーの台数 | /server/month | $4.906/server/month | ¥776.214/server/month |  |
+| Microsoft Defender for Servers Plan 2 | サーバーの台数 | /server/month | $14.60/server/month | ¥2,310.159/server/month |  |
+| Microsoft Defender for Containers | Kubernetes のワーカー ノードの vCore 数 | /vCore/month | $6.8693/vCore/month | ¥1,086.9294/vCore/month |  |
+| Microsoft Defender for SQL on Azure-connected databases と Microsoft Defender for SQL Servers on machines (in Azure, or Arc-enabled) | インスタンスの数 | /Instance/month | $15/Instance/month | ¥2,373.451/Instance/month |  |
+| Microsoft Defender for SQL Servers on machines (outside Azure and not Arc-enabled) | インスタンスの vCore 数 | /Instance/vCore/month | $10.95/Instance/vCore/month | ¥1,732.619/Instance/vCore/month |  |
+| Microsoft Defender for MySQL | インスタンスの数 | /Instance/month | $15/Instance/month | ¥2,373.451/Instance/month |  |
+| Microsoft Defender for PostgreSQL | インスタンスの数 | /Instance/month | $15/Instance/month | ¥2,373.451/Instance/month |  |
+| Microsoft Defender for Open-Source Relational Databases (Outside Azure) | インスタンスの数 | /Instance/month | $15.0001/Instance/month | ¥2,373.4564/Instance/month |  |
+| Microsoft Defender for Azure Cosmos DB | RU（要求ユニット）を 100 単位で | per 100 RUs/month | $0.8760 per 100 RUs/month | ¥138.6095 per 100 RUs/month |  |
+| Microsoft Defender for Storage | ストレージ アカウントの数 | per storage account/month | $10 per storage account/month | ¥1,548 per storage account/month |  |
+| Malware Scanning (add-on to Defender for Storage) | スキャンしたデータの GB 数 | /GB of data scanned | $0.15/GB of data scanned | ¥23.735/GB of data scanned |  |
+| Microsoft Defender for AI Services | トークン数を 1,000 単位で | /1K tokens/month | $0.0008/1K tokens/month | ¥0.1266/1K tokens/month |  |
+| Microsoft Defender for APIs Plan 1 | サブスクリプションの数（API 呼び出し 100 万回まで） | per subscription/month up to 1 million API calls | $200.02 | ¥31,649.17 |  |
+| Microsoft Defender for APIs Plan 2 | 同上（500 万回まで） | per subscription/month up to 5 million API calls | $700.00 | ¥110,760.53 |  |
+| Microsoft Defender for APIs Plan 3 | 同上（5,000 万回まで） | per subscription/month up to 50 million API calls | $4,999.99 | ¥791,148.27 |  |
+| Microsoft Defender for APIs Plan 4 | 同上（1 億回まで） | per subscription/month up to 100 million API calls | $6,999.97 | ¥1,107,605.27 |  |
+| Microsoft Defender for APIs Plan 5 | 同上（10 億回まで） | per subscription/month up to 1 billion API calls | $50,000.04 | ¥7,911,505.76 |  |
+| Microsoft Defender for App Service | インスタンスの数 | /Instance/month | $14.60/Instance/month | ¥2,310.159/Instance/month |  |
+| Microsoft Defender for Key Vault | vault（キー コンテナー）の数 | /Vault/month | $0.25/Vault/month | ¥39.28/Vault/month |  |
+| Microsoft Defender for Resource Manager | サブスクリプションの数 | /Subscription/month | $5.04/Subscription/month | ¥797.01/Subscription/month |  |
+| Defender for DNS | 価格ページに行がない | ― | ― | ― |  |
 
 ### 4-2. 追加で数える数量（超過分・無料枠）
 
 | プラン | 数える数量（翻訳） | 原文（検索できる表現） |
 |---|---|---|
 | Defender for Containers | 課金対象の vCore 1 つにつき、月 20 回の脆弱性評価が無料 | This price includes 20 free monthly vulnerability assessments |
-| Defender for Containers | 無料枠を超えたスキャンは、イメージ ダイジェスト 1 つごとに $0.29 | Every subsequent scan will be charged at $0.29 per image digest |
-| Defender for Storage | 月 7,300 万トランザクションを超えた分は、100 万件ごとに $0.1492 | Storage accounts that exceed 73 million monthly transactions will be charged $0.1492 for every 1 million transactions |
+| Defender for Containers | 無料枠を超えたスキャンは、イメージ ダイジェスト 1 つごとに $0.29（JPY 表示では ¥45.887） | Every subsequent scan will be charged at $0.29 per image digest |
+| Defender for Storage | 月 7,300 万トランザクションを超えた分は、100 万件ごとに $0.1492（JPY 表示では ¥23.6080） | Storage accounts that exceed 73 million monthly transactions will be charged $0.1492 for every 1 million transactions |
 | マルウェア スキャン | 最初の 30 日間も無料にならず、初日から課金 | will be charged from the first day |
 | Defender for Azure Cosmos DB | サーバーレスのアカウントは、RU の合計に係数 0.00003125 を掛けて換算する | using a conversion factor of 0.00003125 |
-| Defender for APIs | 枠を超えた API 呼び出し 1 回ごとに超過課金（Plan 1 は $0.0002） | Plan 1: $0.0002 per API call, Plan 2: $0.00014, Plan 3: $0.0001, Plan 4: $0.00007, Plan 5: $0.00005 per API call |
+| Defender for APIs | 枠を超えた API 呼び出し 1 回ごとに超過課金（Plan 1 は $0.0002。JPY 表示では Plan 1 から順に ¥0.03165、¥0.02216、¥0.01583、¥0.01108、¥0.00792） | Plan 1: $0.0002 per API call, Plan 2: $0.00014, Plan 3: $0.0001, Plan 4: $0.00007, Plan 5: $0.00005 per API call |
 | Defender for AI Services | 試用は 30 日または 750 億トークンの早いほうまで | capped at 30 days or 75 billion tokens, whichever comes first |
 | 全プラン共通 | 最初の 30 日間は無料 | free for the first 30 days |
 
@@ -146,7 +149,7 @@
 
 | 内容（翻訳） | 原文（検索できる表現） | 表示されていた価格 |
 |---|---|---|
-| Defender Workload Unit（DWU）という共通の単位 | Defender Workload Unit | $5.00/month |
+| Defender Workload Unit（DWU）という共通の単位 | Defender Workload Unit | $5.00/month（JPY 表示では ¥791.12/month） |
 | サーバー、データベース、コンテナー、ストレージ、CSPM、AI、API、App Service、Key Vault、Resource Manager のワークロードが対象 | Defender Workload Unit covers workloads in | ― |
 
 各プランの数量が何 DWU に換算されるかは、価格ページには書かれておらず、確かめていない。
@@ -182,7 +185,8 @@ Key Vault と Resource Manager の「（旧料金体系）」は、移行先が�
 
 ## 7. 今回確かめていないこと
 
-- 日本円や日本のリージョンを選んだときの価格。載せた価格は、ページを開いた直後の表示（USD、月額）だけ
+- Japan East 以外のリージョン（Japan West など）の価格。載せた価格は Japan East だけ
+- DWU の価格（$5.00/month）が Japan East の USD 表示でも同じかどうか。USD は既定のリージョンで、JPY は Japan East で読み取った
 - DWU（Defender Workload Unit）への換算。各プランの数量が何 DWU になるか、プラン別の料金とどちらが適用されるか
 - 「インスタンス」「サーバー」が具体的に何を 1 つと数えるかの定義（たとえば Azure SQL で論理サーバー単位かデータベース単位か）。価格ページには単位名しか書かれていない
 - Defender for SQL Servers on Machines の専用の概要ページ（`defender-for-sql-servers-introduction`）。この行は (*4) と (*9) の記述だけで書いている
@@ -193,7 +197,7 @@ Key Vault と Resource Manager の「（旧料金体系）」は、移行先が�
 
 | 脚注 | ページ | ms.date | URL |
 |---|---|---|---|
-| (*2) | Pricing（価格ページ）。「Plan-Based Pricing」タブに切り替えて見る | ― | https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/ |
+| (*2) | Pricing（価格ページ）。「Plan-Based Pricing」タブに切り替え、Region で「Japan East」を選んで見る | ― | https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/ |
 | (*3) | Overview of Defender for Servers | 2026-11-13 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-servers-overview |
 | (*4) | Multicloud support matrix | 2026-09-11 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/multicloud-support-matrix |
 | (*5) | Interoperability with Azure services, Azure clouds, and client operating systems | 2026-07-01 | https://learn.microsoft.com/en-us/azure/defender-for-cloud/support-matrix-defender-for-cloud |
